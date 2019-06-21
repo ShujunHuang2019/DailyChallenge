@@ -128,3 +128,19 @@ print(b)
 
 x = bisect.bisect(b, 2)
 print(x)
+
+languages = ["chinese", "english", "french", "spanish"]
+for i, val in enumerate(languages):
+    print(i, val)
+
+enumerate(languages)
+languages.extend(["Japanese", "Korean"])
+languages.sort(key = len)
+
+print(zip(countries, languages))
+
+
+hot_job = ['Big_data', 'data science', 'data scientist', 'data base developer']
+languages = ['c', 'c++', 'java', 'python']
+statistics = ['Mean', 'Median', 'Mode', 'Chi square']
+print(zip(hot_job, languages, statistics))
