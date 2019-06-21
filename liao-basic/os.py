@@ -34,3 +34,12 @@ os.path.isdir(".")
 
 [x for x in os.listdir(".") if os.path.isfile(x) and os.path.splitext(x) == ".py"]
 [x for x in os.listdir('.') if os.path.isfile(x) and os.path.splitext(x)[1]=='.py']
+
+import os
+os.listdir(".")
+os.path.abspath(".")
+os.path.join(os.path.abspath("."), "other_tutorials")
+os.mkdir(os.path.join(os.path.abspath("."), "other_tutorials"))
+
+cd /Users/shujunhuang/Workspaces/python-training/other_tutorials
+os.listdir(".")
