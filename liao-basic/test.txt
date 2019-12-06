@@ -1,8 +1,0 @@
-screen
-three modes in vi
-command mode
-insert mode
-last line mode
-when out of command mode, you can use esc key to go back to the command mode
-when in command mode, you can use i/: to enter insert/last line mode
-over
